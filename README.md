@@ -3,11 +3,11 @@ Perl script to draw dotplots from various types of comparison. Converts comparis
 
 
 ###
-Usage:
+```Usage:
 perl dotplot.pl (infile|lgtable|blastTable) -options..
 Options:
     -infile|i           infile from mstmap result out
-    -lgtable|lgt        lg table with 4 columns.If -lgt is not provided with -i, script assumes that marker names in mst output file includes this info as "MarkerName_Contig_number_location"
+    -lgtable|lgt        lg table with 4 columns.If -lgt is not provided with -i, script assumes that marker names in mst output  file includes this info as "MarkerName_Contig_number_location"
                         eg. MarkerName	ContigName	LocationOnContig	LinkageGroup	locationOnLG
     ********************************************************************
     -blast_table|bt     blast result in table format.
@@ -62,4 +62,4 @@ Options:
     -as_marker|am       Use user provided char as marker for dotplot.eg. x
     -help|h             help
 
-"
+```
