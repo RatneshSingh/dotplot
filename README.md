@@ -3,7 +3,8 @@ Perl script to draw dotplots from various types of comparison. Converts comparis
 
 
 ###
-```Usage:
+```
+Usage:
 perl dotplot.pl (infile|lgtable|blastTable) -options..
 Options:
     -infile|i           infile from mstmap result out
