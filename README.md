@@ -1,9 +1,9 @@
 # dotplot
-Converts comparison results to graphics in the form of dotplot. Currenlty uses blast table, MSTMap, Linkage maps, or a regular table with information on matches.
+Perl script to draw dotplots from various types of comparison. Converts comparison results to graphics in the form of dotplot. Currenlty uses blast table, MSTMap, Linkage maps, or a regular table with information on matches.
 
 
-Perl script to draw dotplots from various types of comparison
-
+###
+Usage:
 perl dotplot.pl (infile|lgtable|blastTable) -options..
 Options:
     -infile|i           infile from mstmap result out
@@ -62,3 +62,4 @@ Options:
     -as_marker|am       Use user provided char as marker for dotplot.eg. x
     -help|h             help
 
+"
